@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <StackLayout>
+    <Label text="{{resultLabel}}" textWrap="true" />
+    <Button text="Press the button" tap="onTap" />
+    <TextField hint="Enter expression" text="{{ textfieldText }}" />
+    <Button text="Press the button" tap="onTapButton" />
+    
+  </StackLayout>
+</Page>
